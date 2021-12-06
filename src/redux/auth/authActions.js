@@ -69,22 +69,3 @@ const operations = {
 
 export default operations;
 
-// import { createAction } from '@reduxjs/toolkit';
-
-// const register = createAction('auth/signUp', user => ({
-//     payload: {
-//       name: user.name,
-//       email: user.email,
-//       password: user.password,
-//   }
-// }));
-
-// const logIn = createAction('auth/logIn');
-
-// const logOut = createAction('auth/logOut');
-
-// const fetchCurrentUser = createAction('auth/refresh')
-
-// const authActions = { register, logIn, logOut, fetchCurrentUser };
-
-// export default authActions;
