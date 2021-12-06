@@ -1,0 +1,17 @@
+.app {
+  margin-top: 50px;
+  width: 80vw;
+  min-height: 80vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  display: block;
+  color: green;
+  text-shadow: 2px 2px 2px lightgray;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.8;
+}

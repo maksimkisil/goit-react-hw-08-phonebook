@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #8fb4a1;
+}
+
+.link {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(156, 241, 206);
+}
+
+.activeLink {
+  color: forestgreen;
+}
